@@ -20,7 +20,7 @@ $body = $body . "===================================" . "\n";
 mail($destinatario, $assunto , $body, "From: $email\r\n");
 
 
-
+header("location:index.html");
 
 
 ?>
