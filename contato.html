@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rachel Kozlowsky">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav" id="nav">
+            <a href="index.html">Home</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="contato.html">Contato</a> |
+            <a href="saibamais.html">Saiba Mais</a>
+
+        </div>
+
+    </nav>
+
+    <container>
+
+        <form name="contact" action="enviar.php" method="post">
+            <p> Entre em contato para saber mais ou contratar serviços</p>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nomeid" required="required" name="nome" />
+
+            <label for="phone">Telefone</label>
+            <input type="tel" placeholder="(xx)xxxxx-xxxx" name="phone" />
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="seuemail@email.com" name="email" />
+            <label for="mensagem">Mensagem:</label>
+            <textarea placeholder="Deixe sua sua mensagem"></textarea>
+
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </form>
+
+    </container>
+
+    <script>
+        function Enviar() {
+
+            var nome = document.getElementById("nomeid");
+
+            if (nome.value != "") {
+                alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

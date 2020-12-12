@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rachel Kolowsky">
+    <title>Covid News Gama Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav" id="nav">
+            <a href="index.html">Home</a> |
+            <a href="sobre.html">Sobre</a> |
+            <a href="contato.html">Contato</a> |
+            <a href="saibamais.html">Saiba Mais</a>
+        </div>
+    </nav>
+    <container>
+        <h3>Notícias sobre o COVID-19</h3>
+        <div class="gallery">
+            <img src="./images/01.jpg" alt="Vacina COVID-19">
+            <div class="desc">
+                <p>Coronavírus gráfico mostra tempo que humanidade levou para criar vacinas e recorde para covid-19
+                </p>
+                <button onclick="document.getElementById('id01').style.display='block'">Ler Notícia</button>
+            </div>
+            <div id="id01" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="closebtn">&times;</span>
+                        <h2>Aprovada para uso emergencial no Reino Unido e com indicação de aprovação pela Food and Drug Administration (FDA, a agência reguladora dos Estados Unidos), a vacina para covid-19 desenvolvida pelas empresas Pfizer e BioNTech passou
+                            do conceito à realidade em apenas 10 meses.
+                        </h2>
+                    </header>
+                    <div class="container">
+                        <p>Um artigo de pesquisadores do projeto Our World in Data, da Universidade de Oxford, no Reino Unido, comparou o tempo entre a identificação do agente causador de 16 doenças e o ano em que uma vacina contra eles foi aprovada nos
+                            EUA.
+                        </p>
+                        <p> Os EUA foram escolhidos como referência porque é o país onde a maioria das imunizações é licenciada pela primeira vez, mesmo que não tenham sido criadas lá.</p>
+                        <p> O gráfico reúne as principais doenças para as quais a vacinação é recomendada e que têm alta mortalidade, segundo a Organização Mundial da Saúde (OMS) — além da covid-19, que já deixou mais de 1,5 milhão de mortos em todo o mundo
+                            desde o fim do ano passado.</p>
+                        <p> E conta também com algumas enfermidades que ainda não têm vacinas licenciadas, mas já têm candidatas em teste em alguns países do mundo.</p>
+                        <p> A comparação mostra como o processo pelo qual vacinas são criadas pode ser demorado, e como a pandemia atual foi uma exceção a esse paradigma.</p>
+                        <p>Fonte: <a href="https://www.bbc.com/portuguese/internacional-55232520">BBC</a>
+                        </p>
+                        <img src="./images/01a.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./images/02.jpg" alt="Brasil se aproxima de 180 mil mortos por Covid-19">
+            <div class="desc">
+                <p>Brasil se aproxima de 180 mil mortos por Covid-19</p>
+                <button onclick="document.getElementById('id02').style.display='block'">Ler Notícia</button>
+            </div>
+            <div id="id02" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id02').style.display='none'" class="closebtn">&times;</span>
+                        <h2>País tem 179.801 óbitos registrados e 6.783.543 diagnósticos de Covid-19 desde o começo da pandemia, segundo balanço do consórcio de veículos de imprensa. Pelo 2º dia seguido 21 estados e o DF aparecem simultaneamente com tendência
+                            de alta na média de mortes.</h2>
+                    </header>
+                    <div class="container">
+                        <p> O consórcio de veículos de imprensa divulgou novo levantamento da situação da pandemia de coronavírus no Brasil a partir de dados das secretarias estaduais de Saúde, consolidados às 20h desta quinta-feira (10).</p>
+                        <p> O país registrou 769 mortes pela Covid-19 nas últimas 24 horas, chegando ao total de 179.801 óbitos desde o começo da pandemia. Com isso, a média móvel de mortes no Brasil nos últimos 7 dias foi de 642. A variação foi de +35% em
+                            comparação à média de 14 dias atrás, indicando tendência de alta nos óbitos pela doença.</p>
+                        <p>Em casos confirmados, desde o começo da pandemia 6.783.543 brasileiros já tiveram ou têm o novo coronavírus, com 53.425 desses confirmados no último dia. A média móvel nos últimos 7 dias foi de 42.290 novos diagnósticos por dia.
+                            Isso representa uma variação de +34% em relação aos casos registrados em duas semanas, o que indica tendência de alta também nos diagnósticos.
+                        </p>
+                        <p>Vinte e um estados e o Distrito Federal apresentaram alta na média móvel de mortes: PR, RS, SC, ES, MG, RJ, SP, DF, GO, MS, MT, AC, RO, RR, TO, BA, CE, PB, PE, PI, RN e SE. É o segundo dia seguido em que tantos estados aparecem
+                            simultaneamente com tendência de alta nas mortes pela doença desde que o consórcio começou a acompanhar essas tendências, em 9 de julho. Antes disso, o máximo de estados em alta ao mesmo tempo havia sido de 18.</p>
+                        <ul> Brasil, 10 de dezembro
+                            <li>Total de mortes: 179.801</li>
+                            <li>Registro de mortes em 24 horas: 769</li>
+                            <li> Média de novas mortes nos últimos 7 dias: 642 (variação em 14 dias: +35%)</li>
+                            <li> Total de casos confirmados: 6.783.543</li>
+                            <li> Registro de casos confirmados em 24 horas: 53.425</li>
+                            <li> Média de novos casos nos últimos 7 dias: 42.290 por dia (variação em 14 dias: +34%)
+                            </li>
+                            (Antes do balanço das 20h, o consórcio divulgou um boletim parcial às 13h, com 179.063 mortes e 6.735.373 casos confirmados.)
+                        </ul>
+                        <p>Fonte: <a href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/12/10/casos-e-mortes-por-coronavirus-no-brasil-em-10-de-dezembro-segundo-consorcio-de-veiculos-de-imprensa.ghtml">G1</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./images/03.jpg" alt="RT-PCR ou sorológico? Entenda as diferenças entre os testes para a covid-19">
+            <div class="desc">
+                <p>RT-PCR ou sorológico? Entenda as diferenças entre os testes para a covid-19</p>
+                <button onclick="document.getElementById('id03').style.display='block'">Ler Notícia</button>
+            </div>
+            <div id="id03" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id03').style.display='none'" class="closebtn">&times;</span>
+                        <h2>Para a maior confiabilidade dos resultados não basta ter os testes em mãos: é preciso saber a hora certa de aplicar e em qual situação.</h2>
+                    </header>
+                    <div class="container">
+                        <h4>O que é o RT-PCR?</h4>
+                        <p>Considerado o “padrão ouro” ou “padrão de referência”, o RT-PCR é o exame que identifica o vírus e confirma a covid-19. Para isso, o teste busca detectar o RNA do vírus através da amplificação do ácido nucleico pela reação em cadeia
+                            da polimerase.</p>
+                        <p>De acordo com a professora Glaucia, esse teste deve ser realizado no início da doença, especialmente na primeira semana, quando o indivíduo possui grande quantidade do vírus Sars-CoV-2.
+                        </p>
+                        <p>As amostras são coletadas através de swabs (cotonetes) de nasofaringe (nariz) e orofaringe (garganta). A abordagem do exame, no momento, é do profissional de saúde que está atendendo o paciente no hospital, ambulatório ou consultório.
+                            Isso porque é preciso saber a fase da doença para a coleta da amostra.</p>
+                        <h4>Testes sorológicos</h4>
+                        <p>Enquanto o RT-PCR deve ser realizado no início da doença, os testes sorológicos são feitos a partir da segunda semana, quando a quantidade de vírus diminui progressivamente e o indivíduo produz anticorpos contra o vírus, principalmente
+                            das classes IgG e IgM.</p>
+                        <p>A professora Glaucia explica que os anticorpos da classe IgM são mais precoces, e podem ser detectados a partir da 2ª semana de infecção. “Já os da classe IgG aparecem mais tardiamente, geralmente após 14 dias da infecção, e persistem
+                            por mais tempo”, diferencia.
+                        </p>
+                        <p>Os testes de sorologia tradicional para identificar os anticorpos são obtidos nas amostras de soro após punção venosa, realizada em laboratório. Também podem ser obtidos em testes rápidos (imunocromatográficos), realizados em sangue
+                            capilar obtido por punção digital.</p>
+                        <p>Fonte: <a href="https://www.medicina.ufmg.br/rt-pcr-ou-sorologico-entenda-as-diferencas-entre-os-testes-para-a-covid-19/">Faculdade
+                                de Medicina UFMG</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./images/04.jpg" alt="RN tem 1º caso confirmado de reinfecção por coronavírus do Brasil">
+            <div class="desc">
+                <p>RN tem 1º caso confirmado de reinfecção por coronavírus do Brasil</p>
+                <button onclick="document.getElementById('id04').style.display='block'">Ver Vídeo</button>
+            </div>
+            <div id="id04" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id04').style.display='none'" class="closebtn">&times;</span>
+                        <h2>De acordo com as informações divulgadas pela Secretaria de Saúde do RN, o caso foi confirmado por meio da metodologia da Fiocruz (Fundação Oswaldo Cruz) por sequenciamento genético
+                        </h2>
+                    </header>
+                    <div class="container">
+                        <p>Fonte: <a href="https://www.uol.com.br/vivabem/noticias/redacao/2020/12/10/rn-tem-o-1-caso-confirmado-de-reinfeccao-por-coronavirus-do-brasil.htm">UOL</a>
+                        </p>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/2pUs340ciqg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./images/05.jpg" alt="Pessoas de 20 a 40 anos estão impulsionando pandemia, diz OMS">
+            <div class="desc">
+                <p>Pessoas de 20 a 40 anos estão impulsionando pandemia, diz OMS</p>
+                <button onclick="document.getElementById('id05').style.display='block'">Ver Vídeo</button>
+            </div>
+            <div id="id05" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id05').style.display='none'" class="closebtn">&times;</span>
+                        <h2>Diretor-geral Tedros Adhanom, pediu o fim do "nacionalismo da vacina"</h2>
+                    </header>
+                    <div class="container">
+                        <p>Fonte: <a href="https://agenciabrasil.ebc.com.br/internacional/noticia/2020-08/pessoas-de-20-40-anos-estao-impulsionando-pandemia-diz-oms">Agência
+                                Brasil</a></p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/O0ZYJkXXgT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="./images/06.jpg" alt="Status Coronavirus no mundo em tempo real">
+            <div class="desc">
+                <p>Status Coronavirus no mundo em tempo real</p>
+                <button onclick="document.getElementById('id06').style.display='block'">Ver Vídeo</button>
+            </div>
+            <div id="id06" class="modal">
+                <div class="modal-content">
+                    <header class="container">
+                        <span onclick="document.getElementById('id06').style.display='none'" class="closebtn">&times;</span>
+                        <h2>Coronavirus Pandemic: Real Time Counter, World Map, News</h2>
+                    </header>
+                    <div class="container">
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/NMre6IAAAiU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </container>
+</body>
+
+</html>
